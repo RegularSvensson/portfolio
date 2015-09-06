@@ -1,18 +1,1 @@
-define(
-  [
-    'angular',
-  ],
-  function(angular) {
-    'use strict';
-
-    angular
-      .module('ng-boilerplate.about-controller', [
-      ])
-      .controller('AboutController', [
-        '$scope',
-        function($scope) {
-          
-        }
-      ]);
-  }
-);
+define(["angular"],function(o){"use strict";o.module("ng-boilerplate.about-controller",[]).controller("AboutController",["$scope",function(o){}])});
